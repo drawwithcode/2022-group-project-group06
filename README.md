@@ -1,4 +1,6 @@
-![heading](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/logo.png)
+<p align="center">
+  <img src="https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/logo.png" />
+</p>
 
 ## About
 "Parasite" is an interactive website built on [p5.js](https://p5js.org) that reveals the proliferation of connections between users, placing a limit on these connections that are conditioned by factors that don't permit them to be infinite and automatic.
@@ -37,9 +39,7 @@ The site can be accessed at any time, groups of people in the same place can dec
 ## Structure
 #### Homepage
 
-<p align="center">
-  <img src="https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/logo.png" />
-</p>
+![heading](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Intro.gif)
 <br>
 <br>
 The homepage is designed to present the project in its entirety in small parts. The landing page appears immediately interactive, as the movement of the background can be managed with the dynamic position of the mouse. In the centre there is the site logo, accompanied by the claim 'leave micro traces, trace macro limits', that appears with a delay of few seconds after the loading of the page. At the bottom right there is a call to action 'Go straight to the experience' that guides the user in the interaction.<br>
