@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/logo.png" />
+  <img src="https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/pinklogo.png" />
 </p>
 
 ## About
