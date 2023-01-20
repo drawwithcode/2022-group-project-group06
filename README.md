@@ -40,7 +40,7 @@ The site can be accessed at any time, groups of people in the same place can dec
 #### Homepage
 
 ![heading](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Intro.gif)
-<br>
+
 <br>
 The homepage is designed to present the project in its entirety in small parts. The landing page appears immediately interactive, as the movement of the background can be managed with the dynamic position of the mouse. In the centre there is the site logo, accompanied by the claim 'leave micro traces, trace macro limits', that appears with a delay of few seconds after the loading of the page. At the bottom right there is a call to action 'Go straight to the experience' that guides the user in the interaction.<br>
 <br>
@@ -64,7 +64,7 @@ The homepage is designed to present the project in its entirety in small parts. 
 #### Mobile Interface
 After scanning the code on the landing page, the user arrives at the personalization page, designed for mobile. This interface consists of the logo at the top, a phrase welcoming the new cell to the world. The cell can be customized in its color and size by pressing the screen. In addition, the user can give it a name by filling in the name input. To send the cell to its parasite the person must shake the device.<br>
 <br>
-<p align="center">
+<p align ="center">
 ![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Mobile.gif)
 </p>
 <br>
@@ -74,14 +74,14 @@ After scanning the code on the landing page, the user arrives at the personaliza
 The 'Microverse' section is the heart of the website. In fact, it provides an overview of all the parasites that have been created so far. It is constructed in a concentric manner: in the centre the user finds the parasite corresponding to his location, around which all the others are arranged. By clicking on each individual parasite, at the bottom left reference coordinates appear informing the user of the type of parasite, where and when it was created and who created the first cell.<br>
 
 <br>
-![waitingroom](links/https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Microverse.gif)
+![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Microverse.gif)
 <br>
 <br>
 Bottom right, accompained by the words 'slide to view neighbouring colonies', a zoom slider permits the user to enlarge the view of his or her own parasite. He/She arrives at his/her colony, where there are all the cells created by the different users orbiting the parasite. In this view, bottom left, the qr code appears again to invite anyone to create cells.<br>
 
 <br>
 
-![waitingroom](links/https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Microverse.gif)
+![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Microverse.gif)
 <br>
 <br>
 
