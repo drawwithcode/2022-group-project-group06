@@ -3,7 +3,7 @@
 </p>
 
 ## About
-"Parasite" is an interactive website built on [p5.js](https://p5js.org) that reveals the proliferation of connections between users, placing a limit on these connections that are conditioned by factors that don't permit them to be infinite and automatic.
+"Parasite" is an interactive website built on [p5.js](https://p5js.org) that reveals the origin of connections between users, placing a limit on these, which are conditioned by factors that don't permit them to be infinite and automatic.
 "Parasite was developed as part of the [Creative Coding](https://drawwithcode.github.io/) course at the Politecnico di Milano.
 <br>Faculty: Michele Mauri, Tommaso Elli, Andrea Benedetti
 
@@ -23,6 +23,7 @@ c. [Tools](#tools)<br>
 
 ## Project idea
 #### Concept
+
 Technology is often perceived as invisible and untouchable, as something surreal that connects everyone even miles away. It is considered as what brings us the most towards the metaphysical, the mystical and the abnormal. Is it possible today to subtract the magical aura around the infinite connections that occur thanks to technology?
 What we wanted to create is a website that, through a simple metaphor, imposes limitations on the usual use of technology. In fact, it sets temporal and spatial barriers that condition the experience within the website: users only perceive the presence of others if they are in the same spatial coordinates. 
 This is possible thanks to the collection of certain sensitive user data, in particular the gps position of anyone accessing the site is collected by the system, to trace the footprint of individual users and relate them to their neighbours. The aim is to create an engaging interactive experience to explain the complexity of the topic.
@@ -38,7 +39,6 @@ The site can be accessed at any time, groups of people in the same place can dec
 
 ## Structure
 #### Homepage
-
 ![heading](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Intro.gif)
 <br>
 <br>
