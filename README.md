@@ -39,6 +39,7 @@ The site can be accessed at any time, groups of people in the same place can dec
 
 ![heading](links/img.png)
 <br>
+<br>
 The homepage is designed to present the project in its entirety in small parts. The landing page appears immediately interactive, as the movement of the background can be managed with the dynamic position of the mouse. In the centre there is the site logo, accompanied by the claim 'leave micro traces, trace macro limits', that appears with a delay of few seconds after the loading of the page. At the bottom right there is a call to action 'Go straight to the experience' that guides the user in the interaction.<br>
 <br>
 ![homepage](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Intro.gif)
