@@ -1,18 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+    <script src="libraries/p5.geolocation.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/addons/p5.sound.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>para•site</title>
+    <link rel="icon" type="image/x-icon" href="assets/iconRisorsa 1.svg">
+    <link rel="stylesheet" type="text/css" href="stylehome.css" />
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <title>Sketch</title>
-
-    <link rel="stylesheet" type="text/css" href="style.css">
-
-    <script src="libraries/p5.min.js"></script>
-    <script src="libraries/p5.sound.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
-
   <body>
-    <script src="sketch.js"></script>
+     <script src="sketchhome.js"></script>
+
+<div class="bloccomobile">
+  <img src="assets/parasitewire.svg" alt="" style="width: 30vw; margin-top: 30vh; margin-left: 35vw;">
+  <div style="text-align: center; margin-top: 5vh; color: white; font-size: 2vh;">OPEN THIS WEBSITE FROM A LAPTOP <br> TO START THE EXPERIENCE</div></div>
+
+   
+    <div class="navbar">
+      <div class="navlogo" onmouseover="definition()" onmouseleave="nodefinition()">
+        <a href="#home" ><img class="logo" src="assets/logonavbar.svg" /></a>
+      </div>
+      <div class="navbox">
+        <div class="navb" id="microverso"><a href="Archive.html">MICROVERSE</a></div>
+       <div onmouseleave="noabout()" style="all:unset"> <div class="navb" onmouseover="about()"><a href="#popup">ABOUT</a></div></div>
+      </div>
+    </div>
+
+    <div id="canvasp5" class="canvasp5"></div>
+    <div class="about" id="about">
+      <div class="aboutbox" style="margin-top: 10vh">
+        <div class="testiabout" style="color: white; background-color:rgb(98, 0, 255);">
+          Technology is often perceived as <s>invisible</s>, as something slightly <u>surreal</u> that connects everyone even
+          when miles away.
+          It may be seen as what takes us closer to the <em>metaphysical</em>, the <em>mystic</em> or the <em>abnormal</em>.
+          <br> <br>
+          We thought of a way to show a <u>paradoxical</u> opposite side of technology. Parasite is the first website which you
+          can
+          access with your GPS location, but where you <s>can not see</s> others’ locations unless they are in your same
+          <em>physical area</em>.
+          <br> <br>
+          You can leave your <u>trace</u> with the automatically generated cell in the space and see to which parasite this will
+          belong
+          to, but discover only your neighbours’ cells and explore other <em>parasites</em> with <s>limited visibility</s>.
+        </div>
+
+        <div class="testiabout" style="background-color: #1ec463; color: white;">
+          <p>This website is an academic project designed in Bovisa’s parasite - Italy, Milan - during the course of Creative Coding 2022/23 at Politecnico of Milan.</p>
+          <p style="font-family: replica-reg; margin-top: 4vh;">THE TEAM</p>
+          <p>Cecilia Buonocunto <br>
+Deborah Franceschini <br>
+Stefano Gubiolo<br>
+Matteo Visini <br>
+Giulia Zago</p>
+        </div>
+      </div>
+
+      </div>
+    </div>
+    <div class="slidesnap" onscroll="scrollfade()" style="padding-right: 0;">
+      <div class="sezione" style="background-color: transparent">
+        <div class="parasitewire" >
+          <img src="assets/parasitewire.svg" alt="" />
+        </div>
+        <div class="payoffbox">
+          <div class="payoff">leave micro traces</div>
+          <div class="payoff" style="float: right">trace macro limits</div>
+        </div>
+
+        <a style="all: unset;" href="#QR" target="_self" rel="nofollow">
+        <div class="arrow">
+          <p id="arrowp">Go straight to the experience</p>
+          <h1 id="arrowglifo" class="arrowglifo">↓</h1>
+        </div>
+        </a>
+      </div>
+      <div class="sezione" style="background-color: transparent">
+        <div class="definizione" id="definition">
+          Para - from Ancient Greek παρά<br>(pará, “beside; next to, near, from;
+          against, <br> contrary to”). <br>
+          <br> 
+          <em>para-</em> : prefix that means
+          1. beside; alongside; (physical)
+          2. beyond; abnormal; (abstract)
+        </div>
+        <div class="introduzione">
+          <div style="margin-bottom: 1vh
+          ; font-family: replica-reg;">Beyond only when beside</div>
+          Welcome to the Parasite microverse,
+          a place where you will be able to see 
+          cells and parasites’ colonies that naked 
+          eyes can’t see. <br> But be careful, once you’ll 
+          think the website can take you anywhere,
+          you’ll struggle to go beyond your physical location.
+        </div>
+      </div>
+      <div class="sezione" style="background-color:transparent" >
+      <div class="parasitewire" id="QR" >
+          <a href="archive.html" style="all: unset; pointer-events: fill;"><img src="assets/qr.svg" alt="" style="margin-top: -6vh; cursor: pointer;
+" onclick="setArchiveValue()"/></a>
+          <div class="colonytesto"><a href="archive.html" style="all: unset;">OR GO TO THE MICROVERSE</a></div>
+        </div>
+        <div class="payoffbox">
+          <div class="payoff">scan the QR code</div>
+          <div class="payoff" style="float: right">start the germination</div>
+        </div>
+    </div>
   </body>
+
+  <script>
+    function scrollfade() {
+      
+      document.getElementById("arrowp").className = "p";
+      document.getElementById("arrowglifo").className = "imgfreccia";
+    }
+
+    function about() {
+      document.getElementById("about").className = "aboutmoved";
+      
+    }
+
+    function noabout(){
+      document.getElementById("about").className = "noabout";
+    }
+
+     function definition(){
+      document.getElementById("definition").style.opacity = "100%";
+    }
+
+     function nodefinition(){
+      document.getElementById("definition").style.opacity = "0";
+    }
+
+     function setArchiveValue(){
+      var archive = 1;
+      localStorage.setItem("archivePage", archive);
+      window.location.href = "archive.html";
+     }
+     
+  </script>
 </html>
+
