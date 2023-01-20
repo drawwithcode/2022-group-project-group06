@@ -1,4 +1,4 @@
-![heading](links/heading.png)
+![heading](links/img.png)
 
 ## About
 "Parasite" is an interactive website built on [p5.js](https://p5js.org) that reveals the proliferation of connections between users, placing a limit on these connections that are conditioned by factors that don't permit them to be infinite and automatic.
