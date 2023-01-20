@@ -290,6 +290,7 @@ function draw() {
     }
   }
   
+
   if (slider.value() >= 300) {
     push();
     textSize(16);
@@ -307,18 +308,18 @@ function draw() {
     text(
       "SCAN TO KEEP",
       (height / 100) * 16,
-      windowHeight - 70
+      windowHeight - (height / 100) * 12.5
     );
     text(
       "GERMINATING",
       (height / 100) * 16,
-      windowHeight - 50
+      windowHeight - (height / 100) * 9.5
     );
 
     text(
       "THIS PARASITE",
       (height / 100) * 16,
-      windowHeight - 30
+      windowHeight - (height / 100) * 6.5
     );
 
     pop();
@@ -341,7 +342,7 @@ function draw() {
   text(
     "GERMINATE AT DAY: " + starDate,
     (height / 100) * 4,
-    windowHeight - (height / 100) * 10 
+    windowHeight - (height / 100) * 10
   );
 
   if (starDistance < 2) {
