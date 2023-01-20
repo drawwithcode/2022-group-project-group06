@@ -341,7 +341,7 @@ function draw() {
   text(
     "GERMINATE AT DAY: " + starDate,
     (height / 100) * 4,
-    windowHeight - (height / 100) * 10
+    windowHeight - (height / 100) * 1
   );
 
   if (starDistance < 2) {
