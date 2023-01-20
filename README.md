@@ -79,7 +79,7 @@ The 'Microverse' section is the heart of the website. In fact, it provides an ov
 Bottom right, accompained by the words 'slide to view neighbouring colonies', a zoom slider permits the user to enlarge the view of his or her own parasite. He/She arrives at his/her colony, where there are all the cells created by the different users orbiting the parasite. In this view, bottom left, the qr code appears again to invite anyone to create cells.<br>
 
 
-![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Microverse.gif)
+![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/colony.gif)
 <br>
 <br>
 
