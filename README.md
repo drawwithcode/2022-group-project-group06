@@ -53,6 +53,7 @@ The homepage is designed to present the project in its entirety in small parts. 
 <br>
  In the second scroll the qr code is presented,  inviting the users to begin their experience. Below the 'Go to the microverse' button takes the user to the archive section of the site.<br>
 <br>
+<br>
 ![minigame](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/TerzaInterfaccia.gif)
 <br>
 <br>The page is completed with a navbar emerging from the background with two buttons: Microverse (a further reminder of the archive) and About. Specifically, the About section appears as an overlay on the page in bright and vivid colours and provides detailed information about the project and the team. <br>
