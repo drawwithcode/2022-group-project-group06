@@ -64,7 +64,9 @@ The homepage is designed to present the project in its entirety in small parts. 
 #### Mobile Interface
 After scanning the code on the landing page, the user arrives at the personalization page, designed for mobile. This interface consists of the logo at the top, a phrase welcoming the new cell to the world. The cell can be customized in its color and size by pressing the screen. In addition, the user can give it a name by filling in the name input. To send the cell to its parasite the person must shake the device.<br>
 <br>
+<p align="center">
 ![waitingroom](https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Mobile.gif)
+</p>
 <br>
 <br>
 #### Microverse
