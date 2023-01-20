@@ -68,7 +68,7 @@ The homepage is designed to present the whole project in small steps. The landin
 <br>
 <br>
 #### Mobile interface
-After scanning the QR code on the landing page, the user arrives at the personalization page, designed for mobile. This interface consists of the logo at the top, a phrase welcoming the new cell to the world. The cell can be customized in its color and size by pressing the screen. The brightness of the cell depends on the time of day when the user creates it. In addition, the user can give it a name by filling in the name input. To send the cell to its parasite the person must shake the device.<br>
+After scanning the QR code on the landing page, the user arrives at the personalization page, designed for mobile. This interface consists of the logo at the top, a phrase welcoming the new cell to the world. The cell can be customized in its color and size by pressing the screen. Another parameter that defines the appearance of the cell is the time of day: it affects the brightness of the cell's colour. In addition, the user can give it a name by filling in the name input. To send the cell to its parasite the person must shake the device.<br>
 <br>
 <p align=center>
 <img width=150 src="https://github.com/drawwithcode/2022-group-project-group06/blob/main/links/Mobile.gif" />
