@@ -26,7 +26,7 @@ let stelleDatabase = 1;
 
 // Geolocation variables
 var locationData;
-let RoundUp = 0.01
+let RoundUp = 0.025
 let fakeLat //solo per cambiare velocemente, da togliere alla fine
 let fakeLng //solo per cambiare velocemente, da togliere alla fine
 

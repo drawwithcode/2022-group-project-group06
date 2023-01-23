@@ -12,7 +12,7 @@ let stars = []; // array of parasites
 
 /* geolocation initialization and roundup */
 var locationData; //geolocation variable
-let RoundUp = 0.015; //geolocation round up
+let RoundUp = 0.025; //geolocation round up
 
 /* empty variables for the laptop current location */
 let laptopLat;
