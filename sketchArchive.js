@@ -71,7 +71,6 @@ let desaparecidoQR = 1; //makes QR appear or disappear based on zoom
 let check = 0; //counter to repeat multiple times the check for presence of a near parasite in the database
 let fine; // empty variable to better control checkStelle()
 
-
 /* x and y for the background grid */
 let xgrid = 0;
 let ygrid = 0;
@@ -82,7 +81,7 @@ async function preload() {
   locationData = getCurrentPosition();
 
   /* image and font preload */
-  qrCode = loadImage("assets/frame.svg");
+  qrCode = loadImage("assets/paraqrnero.svg");
   myFont = loadFont("assets/Replica Regular.otf");
   myFontLight = loadFont("assets/Replica Light.otf");
 
@@ -208,7 +207,7 @@ function arraycreation() {
     pop();
 
     let hoverInfo = 80 / 4 + slider.value(); // scale space where it is possible to hover on parasites based on the zoom
-    
+
     /* sets all the data for the info box in the corner */
     if (
       (stellay - laptopLng) * scale + width / 2 - hoverInfo < mouseX &&
@@ -289,7 +288,6 @@ function draw() {
       desaparecidoQR = 1;
     }
   }
-  
 
   if (slider.value() >= 300) {
     push();
@@ -373,7 +371,7 @@ function draw() {
   pop();
 
   /* make the center clickable to auto zoom */
-  let clickabile = dist(width / 2, height / 2, mouseX, mouseY); 
+  let clickabile = dist(width / 2, height / 2, mouseX, mouseY);
   if (mouseIsPressed === true) {
     if (clickabile < 80 / 4 + slider.value()) {
       if (isIncrementing) {
@@ -389,13 +387,13 @@ function draw() {
     desaparecido = desaparecido - 0.4;
     push();
 
-    cells(); //draws cells 
+    cells(); //draws cells
 
     pop();
   }
 }
 
-  /* function that draws parasite on data created by the array */
+/* function that draws parasite on data created by the array */
 function drawStella(sx, sy, scolore, stipo, sbrightness, sommacerchi) {
   stellax = sx;
   stellay = sy;
